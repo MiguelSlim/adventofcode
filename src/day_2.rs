@@ -1,6 +1,6 @@
 use crate::read_lines;
 
-fn day_2() {
+pub fn day_2_part_2() {
     let arr_opp = ["A", "B", "C"];
     let arr_me = ["X", "Y", "Z"];
 

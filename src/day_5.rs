@@ -3,7 +3,7 @@ use std::collections::{HashMap, VecDeque};
 use crate::read_lines;
 use regex::Regex;
 
-fn day_5() {
+pub fn day_5_part_2() {
     let mut stacks = get_stacks();
     if let Ok(lines) = read_lines("./input.txt") {
         for line in lines {

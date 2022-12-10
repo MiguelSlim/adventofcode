@@ -2,7 +2,7 @@ use std::collections::{HashMap, HashSet};
 
 use crate::read_lines;
 
-fn day_3() {
+pub fn day_3_part_2() {
     let mut result = 0;
     if let Ok(lines) = read_lines("./input2.txt") {
         let mut char_map = HashMap::<char, i32>::new();

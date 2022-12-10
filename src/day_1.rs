@@ -1,6 +1,6 @@
 use crate::read_lines;
 
-fn day_1() {
+pub fn day_1_part_2() {
     let mut elfs = vec![];
     if let Ok(lines) = read_lines("./input.txt") {
         let mut cur = 0;

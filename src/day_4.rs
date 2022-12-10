@@ -1,6 +1,6 @@
 use crate::read_lines;
 
-fn day_4() {
+pub fn day_4_part_2() {
     let mut result = 0;
     if let Ok(lines) = read_lines("./input.txt") {
         for line in lines {
