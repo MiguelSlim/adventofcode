@@ -10,6 +10,7 @@ mod day_4;
 mod day_5;
 mod day_6;
 mod day_7;
+mod day_8;
 
 use day_1::day_1_part_2;
 use day_2::day_2_part_2;
@@ -18,9 +19,10 @@ use day_4::day_4_part_2;
 use day_5::day_5_part_2;
 use day_6::{day_6_part_1, day_6_part_2};
 use day_7::{day_7_part_1, day_7_part_2};
+use day_8::{day_8_part_1, day_8_part_2};
 
 fn main() {
-    day_7_part_1();
+    day_8_part_2();
 }
 
 fn read_lines<P>(filename: P) -> io::Result<io::Lines<io::BufReader<File>>>

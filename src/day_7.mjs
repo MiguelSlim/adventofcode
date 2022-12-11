@@ -1,6 +1,6 @@
 import fs from "fs";
 
-const data = fs.readFileSync("../inputs/day_7_part_2.txt", {
+const data = fs.readFileSync("./inputs/day_7_part_2.txt", {
   encoding: "utf8",
   flag: "r",
 });
